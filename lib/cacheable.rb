@@ -10,7 +10,7 @@ module Cacheable
     attr_writer :logger
 
     def log(message)
-      @logger.info("[Cacheable] #{message}")
+      #@logger.info("[Cacheable] #{message}")
     end
 
     def acquire_lock(_cache_key)
